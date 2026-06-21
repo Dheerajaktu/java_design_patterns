@@ -1,4 +1,4 @@
-package org.java.codingQuestions;
+package org.java.codingQuestionsBasedOnStreamsSetOne;
 
 import java.util.Collections;
 import java.util.List;

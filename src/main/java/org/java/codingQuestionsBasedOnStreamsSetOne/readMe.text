@@ -1,0 +1,41 @@
+-----------------
+#Set One: Completed
+------------------
+1. Filter even numbers from list
+2. Convert list of strings to uppercase
+3. Find first non-repeated character in string
+4. Sort employees by salary
+5. Group strings by length
+6. Find duplicate elements in list
+7. Sum of all even numbers
+8. Find maximum salary using streams
+9. Convert list to Map (id → name)
+10. Handle null using Optional
+
+
+-----------------
+#Set Two
+------------------
+
+1. Find second highest number in a list
+2. Count frequency of each character in a string
+3. Find longest string in a list
+4. Remove duplicates from list without using Set
+5. Partition numbers into even and odd using partitioningBy
+6. Filter employees earning more than 50k
+7. Check if all numbers in a list are positive
+8. Join list of strings with comma separator
+
+
+-----------------
+#Set Three
+------------------
+
+1. Find most frequent word in a list of strings
+2. Find first repeated element in a list
+3. Sort a Map by its values
+4. Find employee with highest salary (return full object)
+5. Group employees by department using groupingBy
+6. Flatten a list of lists into a single list
+7. Find palindrome strings from a list
+8. Find duplicate words in a sentence

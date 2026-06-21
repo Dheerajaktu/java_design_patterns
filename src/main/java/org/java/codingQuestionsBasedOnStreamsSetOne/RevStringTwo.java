@@ -1,4 +1,4 @@
-package org.java.codingQuestions;
+package org.java.codingQuestionsBasedOnStreamsSetOne;
 
 public class RevStringTwo {
     public static void main(String[] args) {

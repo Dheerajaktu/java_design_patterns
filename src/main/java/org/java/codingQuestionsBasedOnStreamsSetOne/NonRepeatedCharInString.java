@@ -1,10 +1,8 @@
-package org.java.codingQuestions;
+package org.java.codingQuestionsBasedOnStreamsSetOne;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.function.Function;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class NonRepeatedCharInString {

@@ -1,6 +1,5 @@
-package org.java.codingQuestions;
+package org.java.codingQuestionsBasedOnStreamsSetOne;
 
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
