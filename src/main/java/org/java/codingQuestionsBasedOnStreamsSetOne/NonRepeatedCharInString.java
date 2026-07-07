@@ -25,28 +25,14 @@ public class NonRepeatedCharInString {
                                 Collectors.counting() // value would be counting of each char
                         ));
 
-        // Step 2: first non-repeating finding below
+        System.out.println("Fre Map====>>"+ freq); // w
 
+        // Step 2: first non-repeating finding below
         char res = freq.entrySet()
                 .stream()
                 .filter(e -> e.getValue() == 1)
                 .findFirst().get().getKey();
 
-
-
-        System.out.println("result====>>"+ res); // w
-
-
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println("result====>>"+ res); // D
     }
 }
