@@ -3,13 +3,14 @@ package org.java.objectOriented;
 public class FinalMethodOverRide {
     public static void main(String[] args) {
         FinalDemo2 fd2 = new FinalDemo2();
-        fd2.show();
+
+
     }
 }
 
 
 class FinalDemo {
-    final void show(){
+     void show(){
         System.out.println("Class FinalDemo Show()");
     }
 }
