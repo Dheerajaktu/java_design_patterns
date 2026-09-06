@@ -20,6 +20,8 @@ public class FindEvenNumbersFromList {
         sortInAscOrder(numbersUnsorted);
         sortedListInAscOrder(numbersUnsorted);
         sumNumbersInAList(numbersUnsorted);
+        findNthLargestElement();
+        findCommongInTwoLists();
     }
 
     // 1. Filter Even Numbers from a List
@@ -63,8 +65,26 @@ public class FindEvenNumbersFromList {
         HashSet<Integer> set = new HashSet<>();
 
         List<Integer> duplicate = list.stream().filter(n -> !set.add(n)).collect(Collectors.toList());
-
         System.out.println("Duplicate Elements: " + duplicate);
+    }
+
+    // 7. Find Nth Largest Element in a List
+    public static void findNthLargestElement() {
+        // NOTE - find 3rd largets element in the list
+
+        List<Integer> numbers = Arrays.asList(10, 20, 50, 40, 30);
+        int res = numbers.stream().sorted(Comparator.reverseOrder()).skip(2).findFirst().orElseThrow();
+        System.out.println("7:: 3rd largest element from list: " + res);
+    }
+
+    // 8. Find Common Elements Between Two Lists
+    public static void findCommongInTwoLists() {
+        List<Integer> list1 = Arrays.asList(1, 2, 3, 4, 5);
+        List<Integer> list2 = Arrays.asList(3, 4, 5, 6, 7);
+
+        List<Integer> common = list1.stream().filter(list2::contains).collect(Collectors.toList());
+        System.out.println("8:: Common Elements in both list: "+ common);
+
     }
 
 }
