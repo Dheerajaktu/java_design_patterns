@@ -213,4 +213,12 @@ public class StringBasedStreamQuestions {
 
     }
 
+    public static void reverseAStringDemo(){
+        String str = "dheeraj";
+        // String res = str.chars().mapToObj(c -> String.valueOf((char)) c).reduce("", (a, b) -> b + a);
+           String res = str.chars()
+            .mapToObj(c -> String.valueOf((char) c))
+            .reduce("", (a, b) -> b + a);
+    }
+
 }
